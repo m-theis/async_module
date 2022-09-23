@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+import '{{module_name.snakeCase()}}.dart';
+
+class {{module_name.pascalCase()}}Page extends StatelessWidget {
+  const {{module_name.pascalCase()}}Page({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: {{module_name.pascalCase()}}(),
+    );
+  }
+}

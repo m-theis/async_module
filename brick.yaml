@@ -1,0 +1,20 @@
+name: async_module
+description: A brick to create an async widget or page
+repository: https://github.com/m-theis/async_module
+
+version: 0.1.0
+
+environment:
+  mason: ">=0.1.0-dev.35 <0.1.0"
+
+vars:
+  module_name:
+    type: string
+    default: Counter
+    description: Module Name
+    prompt: What is the Module called?
+  wrap_with_page:
+    type: boolean
+    default: false
+    description: Wrap Module with Page
+    prompt: Wrap the Module with a page?
